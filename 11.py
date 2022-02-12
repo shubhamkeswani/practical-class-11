@@ -1,0 +1,9 @@
+my_dict = {2:500, 3:5874, 4: 560}
+keys = list(my_dict.keys())
+value = list(my_dict.values())
+print("Minimum Value of key=", min(keys))
+print("Maximum Value of key=", max(keys))
+print("sum of key=", sum(keys))
+print("Minimum Value of value=", min(value))
+print("Maximum Value of value=", max(value))
+print("sum of value=", sum(value))
